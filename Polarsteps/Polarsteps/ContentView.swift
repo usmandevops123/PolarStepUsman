@@ -21,7 +21,7 @@ struct ContentView: View {
                         viewModel.selectEntry(entry)
                     } label: {
                         VStack(spacing: 2) {
-                            Image(systemName: "mappin.circle.fill")
+                            Image(systemName: "heart")
                                 .font(.title)
                                 .foregroundStyle(.red)
                             Text(entry.title)
