@@ -21,14 +21,14 @@ struct ContentView: View {
                         viewModel.selectEntry(entry)
                     } label: {
                         VStack(spacing: 2) {
-                            Image(systemName: "heart")
+                            Image(systemName: "mappin.circle.fill")
                                 .font(.title)
                                 .foregroundStyle(.red)
                             Text(entry.title)
                                 .font(.caption2)
                                 .padding(2)
                                 .background(.thinMaterial)
-                                .cornerRadius(4)
+                                .cornerRadius(5)
                         }
                     }
                 }
